@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,7 +25,6 @@
 		2F7F01041C11578800C97949 /* AXSwiftProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F01031C11578800C97949 /* AXSwiftProtocols.swift */; };
 		2F7F01081C115D4B00C97949 /* PropertySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F01071C115D4B00C97949 /* PropertySpec.swift */; };
 		2F86CECA1BD60117007E8C29 /* Swindler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F86CEC91BD60117007E8C29 /* Swindler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F86CED11BD60117007E8C29 /* Swindler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F86CEC61BD60117007E8C29 /* Swindler.framework */; };
 		2F86CEE21BD6D9E1007E8C29 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86CEE11BD6D9E1007E8C29 /* Events.swift */; };
 		2F86CEE41BD6DAD7007E8C29 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86CEE31BD6DAD7007E8C29 /* State.swift */; };
 		2F86CEEC1BD6EC32007E8C29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86CEEB1BD6EC32007E8C29 /* AppDelegate.swift */; };
@@ -35,9 +34,14 @@
 		2FA4C2A12198C8F000C7027C /* AdversaryFakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4C2A02198C8F000C7027C /* AdversaryFakes.swift */; };
 		2FD2D0661C5493F500D0355D /* DelegateStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2D0651C5493F500D0355D /* DelegateStubs.swift */; };
 		2FD2D0681C67EC8700D0355D /* ScreenSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2D0671C67EC8700D0355D /* ScreenSpec.swift */; };
-		2FEEA29C1C1D36B000CD515E /* Swindler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F86CEC61BD60117007E8C29 /* Swindler.framework */; };
 		2FEEA2E31C1E6E9200CD515E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEEA2E21C1E6E9200CD515E /* Log.swift */; };
 		5C38DE3FBCECC5C0A5AC903B /* Pods_SwindlerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F8A5C2288829AB1B277B04 /* Pods_SwindlerTests.framework */; };
+		632F543B24DD3F4D009137A8 /* Swindler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F86CEC61BD60117007E8C29 /* Swindler.framework */; };
+		632F543C24DD3F4D009137A8 /* Swindler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F86CEC61BD60117007E8C29 /* Swindler.framework */; };
+		63941D7624DBABBC00A9C06A /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63941D7524DBABBC00A9C06A /* Server.swift */; };
+		63941D7824DBABDB00A9C06A /* ServerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63941D7724DBABDB00A9C06A /* ServerConnection.swift */; };
+		63941D7A24DBAE8B00A9C06A /* RestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63941D7924DBAE8B00A9C06A /* RestHandler.swift */; };
+		63941D7D24DBB04200A9C06A /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 63941D7C24DBB04200A9C06A /* Swifter */; };
 		6E7C0BA95ED211D168CD3058 /* Pods_Swindler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B294155BAF709C01A3A7D2 /* Pods_Swindler.framework */; };
 		BAB205C9E67B0A04C5B48938 /* Pods_SwindlerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC881B514AADAF10E329E46D /* Pods_SwindlerExample.framework */; };
 /* End PBXBuildFile section */
@@ -91,6 +95,16 @@
 		2FEEA2C41C1E09A300CD515E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2FEEA2E21C1E6E9200CD515E /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		2FEF3F171C20017300C89067 /* AXSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AXSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/Swindler-azuobwjvfcuxujafcskujfxfoylf/Build/Products/Debug/AXSwift.framework"; sourceTree = "<group>"; };
+		63941D7124DBA20100A9C06A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		63941D7324DBAA3000A9C06A /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		63941D7524DBABBC00A9C06A /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		63941D7724DBABDB00A9C06A /* ServerConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConnection.swift; sourceTree = "<group>"; };
+		63941D7924DBAE8B00A9C06A /* RestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestHandler.swift; sourceTree = "<group>"; };
+		63941D9324DCA76900A9C06A /* SwindlerExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwindlerExample copy-Info.plist"; path = "/Users/david/xcode-src/Swindler/SwindlerExample copy-Info.plist"; sourceTree = "<absolute>"; };
+		63D5EAA324DB5D2C008BCA0C /* ControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerTests.swift; sourceTree = "<group>"; };
+		63D5EAA524DB5D2C008BCA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D5EAAE24DB5D2C008BCA0C /* ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerUITests.swift; sourceTree = "<group>"; };
+		63D5EAB024DB5D2C008BCA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65F7E114E06A3008C7ACD928 /* Pods-Swindler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swindler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swindler/Pods-Swindler.release.xcconfig"; sourceTree = "<group>"; };
 		67B294155BAF709C01A3A7D2 /* Pods_Swindler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swindler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F8A5C2288829AB1B277B04 /* Pods_SwindlerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwindlerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F86CED11BD60117007E8C29 /* Swindler.framework in Frameworks */,
+				632F543B24DD3F4D009137A8 /* Swindler.framework in Frameworks */,
 				5C38DE3FBCECC5C0A5AC903B /* Pods_SwindlerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,7 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FEEA29C1C1D36B000CD515E /* Swindler.framework in Frameworks */,
+				632F543C24DD3F4D009137A8 /* Swindler.framework in Frameworks */,
+				63941D7D24DBB04200A9C06A /* Swifter in Frameworks */,
 				BAB205C9E67B0A04C5B48938 /* Pods_SwindlerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,9 +177,12 @@
 				2F86CEC81BD60117007E8C29 /* Sources */,
 				2F86CED41BD60117007E8C29 /* SwindlerTests */,
 				2F86CEEA1BD6EC32007E8C29 /* SwindlerExample */,
+				63D5EAA224DB5D2C008BCA0C /* ControllerTests */,
+				63D5EAAD24DB5D2C008BCA0C /* ControllerUITests */,
 				2F86CEC71BD60117007E8C29 /* Products */,
 				9E4447A2F5E7EB6E92464F87 /* Frameworks */,
 				2ED6BEB08FAAAAE7356D1099 /* Pods */,
+				63941D9324DCA76900A9C06A /* SwindlerExample copy-Info.plist */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -226,13 +244,36 @@
 				2F86CEF61BD6EC55007E8C29 /* main.swift */,
 				2F86CEED1BD6EC32007E8C29 /* Assets.xcassets */,
 				2F86CEF21BD6EC32007E8C29 /* Info.plist */,
+				63941D7524DBABBC00A9C06A /* Server.swift */,
+				63941D7724DBABDB00A9C06A /* ServerConnection.swift */,
+				63941D7924DBAE8B00A9C06A /* RestHandler.swift */,
 			);
 			path = SwindlerExample;
+			sourceTree = "<group>";
+		};
+		63D5EAA224DB5D2C008BCA0C /* ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				63D5EAA324DB5D2C008BCA0C /* ControllerTests.swift */,
+				63D5EAA524DB5D2C008BCA0C /* Info.plist */,
+			);
+			path = ControllerTests;
+			sourceTree = "<group>";
+		};
+		63D5EAAD24DB5D2C008BCA0C /* ControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63D5EAAE24DB5D2C008BCA0C /* ControllerUITests.swift */,
+				63D5EAB024DB5D2C008BCA0C /* Info.plist */,
+			);
+			path = ControllerUITests;
 			sourceTree = "<group>";
 		};
 		9E4447A2F5E7EB6E92464F87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63941D7324DBAA3000A9C06A /* Network.framework */,
+				63941D7124DBA20100A9C06A /* CFNetwork.framework */,
 				2FEF3F171C20017300C89067 /* AXSwift.framework */,
 				2FEEA2C41C1E09A300CD515E /* AppKit.framework */,
 				2FEEA2AC1C1E041200CD515E /* XCTest.framework */,
@@ -312,6 +353,9 @@
 			dependencies = (
 			);
 			name = SwindlerExample;
+			packageProductDependencies = (
+				63941D7C24DBB04200A9C06A /* Swifter */,
+			);
 			productName = SwindlerExample;
 			productReference = 2F86CEE91BD6EC32007E8C29 /* SwindlerExample.app */;
 			productType = "com.apple.product-type.application";
@@ -322,7 +366,7 @@
 		2F86CEBD1BD60117007E8C29 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Tyler Mandry";
 				TargetAttributes = {
@@ -345,10 +389,14 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
 			mainGroup = 2F86CEBC1BD60117007E8C29;
+			packageReferences = (
+				63941D7B24DBB04200A9C06A /* XCRemoteSwiftPackageReference "swifter" */,
+			);
 			productRefGroup = 2F86CEC71BD60117007E8C29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -537,8 +585,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63941D7824DBABDB00A9C06A /* ServerConnection.swift in Sources */,
 				2F86CEF71BD6EC55007E8C29 /* main.swift in Sources */,
+				63941D7624DBABBC00A9C06A /* Server.swift in Sources */,
 				2F86CEEC1BD6EC32007E8C29 /* AppDelegate.swift in Sources */,
+				63941D7A24DBAE8B00A9C06A /* RestHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,7 +705,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -672,8 +724,12 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DSWINDLER_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.Swindler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -696,8 +752,12 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.Swindler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -714,7 +774,11 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwindlerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DSWINDLER_LOG_INFO";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.SwindlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -728,7 +792,11 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwindlerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DSWINDLER_LOG_INFO";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.SwindlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -743,8 +811,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwindlerExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.SwindlerExample;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.SwinderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -758,8 +830,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwindlerExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.SwindlerExample;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.SwinderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -806,6 +882,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63941D7B24DBB04200A9C06A /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				branch = stable;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63941D7C24DBB04200A9C06A /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63941D7B24DBB04200A9C06A /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F86CEBD1BD60117007E8C29 /* Project object */;
 }
